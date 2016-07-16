@@ -1,0 +1,339 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第一篇</title>
+<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Field Life Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+	<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+	<script src="/js/jquery-1.11.1.min.js"></script>
+
+
+<!-- //js -->
+<!-- fonts -->
+	<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="/js/move-top.js"></script>
+	<script type="text/javascript" src="/js/easing.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	</script>
+<!-- start-smoth-scrolling -->
+</head>
+
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="<?php echo U('index/index');?>">
+					<span>VR</span>视界
+				</a>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- navigation -->
+	<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+		 
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="hvr-bounce-to-bottom"><a href="<?php echo U('index/index');?>"><font face="微软雅黑">主页<span class="sr-only">(current)</span></font></a></li>
+						<li class="hvr-bounce-to-bottom"><a href="<?php echo U('index/about');?>"><font face="微软雅黑">VR简述</font></a></li>
+						<li class="hvr-bounce-to-bottom active"><a href="<?php echo U('index/typography');?>"><font face="微软雅黑">产品评测</font></a></li>
+						<li class="hvr-bounce-to-bottom"><a href="<?php echo U('index/gallery');?>"><font face="微软雅黑">留言板</font></a></li>
+						<li class="hvr-bounce-to-bottom"><a href="<?php echo U('index/contact');?>"><font face="微软雅黑">联系我们</font></a></li>
+					</ul>
+			 	  <div class="search">
+					<form>
+						<input type="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+						<input type="submit" value=" ">
+					</form>
+				  </div>
+			      <div class="clearfix"></div>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+<!-- //navigation -->
+
+<!-- banner -->
+	<div class="banner page-head">
+		<div class="container">
+			<h3><font face="微软雅黑">产品评测</font></h3>
+		</div>
+	</div>
+<!-- typo-page -->
+	<div class="">
+		<div class="container">
+
+		  <section id="tables">
+
+          	<div class="page-header">
+           		<h3><font face="Microsoft YaHei">Oculus Rift、HTC Vive对比体验评测：抢先感受未来之感！</font></h3>
+          		<h6><font color="#999"><br>2016年7月10日 22:16</font></h6>
+         	</div>
+
+          	<div>
+          		<p style="line-height:200%">
+          			Oculus Rift与HTC Vive、PS VR一起被看作是全球三大虚拟现实头盔产品，前两者已经正式开始出货。相比基于智能手机的Cardboard等移动VR产品，它们显然在体验上会更加出色。我们可以看到，Oculus Rift与HTC Vive其实对于PC硬件性能的需求相差无几，那么对比来看，谁的体验会更胜一筹呢？
+          		</p>
+          		<center>
+          			<a><img src="/images/art1.png" style="max-width:100%;border-radius:8px;display:block"/></a>
+          		</center>
+
+          		 <div class="grid_3 grid_5">			
+				   <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+						<ul id="myTab" class="nav nav-tabs" role="tablist">
+
+						  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><h4><font face="Microsoft YaHei"><B><br>安装和初始设置</B></font></h4></a></li>
+
+						  <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><h4><font face="Microsoft YaHei"><B><br>佩戴舒适度</B></font></h4></a></li>
+
+						  <li role="presentation"><a href="#dropdown1" role="tab" id="profile-tab2" data-toggle="tab" aria-controls="profile"><h4><font face="Microsoft YaHei"><B><br>画面显示效果</B></font></h4></a></li>
+
+						  <li role="presentation"><a href="#dropdown2" role="tab" id="profile-tab3" data-toggle="tab" aria-controls="profile"><h4><font face="Microsoft YaHei"><B><br>游戏资源的丰富程度</B></font></h4></a></li>
+							
+						  </li>
+						</ul>
+						<div id="myTabContent" class="tab-content">
+
+						  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+		<!--first-->
+							<p style="line-height:200%">
+          			我们先来对比下Oculus Rift和HTC Vive的安装和配置过程。Oculus Rift和HTC Vive都要求你首先得有一台够强劲的PC才能使用，具体需求如下表格所示，可以看到它们对于处理器和显卡性能的要求基本一致；内存方面，Oculus Rift建议为8GB，HTC Vive稍小一些；接口占用方面，由于Oculus Rift的头盔、追踪相机以及无线手柄接收器（Xbox One）都需要独立接入到PC，因此它需要占用3个USB 3.0接口，以及一个HDMI 1.3接口。而HTC Vive占用的接口要更少，一个HDMI（1.4版本）或一个DisplayPort 1.2+一个USB2.0接口即可。
+          		</p>          		
+        	  <div class="bs-docs-example">
+				<table class="table table-hover">
+				  <thead>
+					<tr>
+					  <th></th>
+					  <th><font color="#2AD2C9">HTC Vive</font></th>
+					  <th><font color="#2AD2C9">Oculus Rift</font></th>					  
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><font color="#2AD2C9">GPU</font></td>
+					  <td>NVIDIA GTX970/<br>AMD R9 290 equivalent or greater</td>
+					  <td>NVIDIA GTX970/<br>AMD R9 290 equivalent or greater</td>
+					</tr>
+					<tr>
+					  <td><font color="#2AD2C9">CPU</font></td>
+					  <td>Intel i5-4590/<br>AMD FX 8350 equivalent or greater</td>
+					  <td>Intel i5-4590/<br>AMD FX 8350 equivalent or greater</td>
+
+					</tr>
+					<tr>
+					  <td><font color="#2AD2C9">RAM</font></td>
+					  <td>4GB</td>
+					  <td>8GB</td>
+					</tr>
+					<tr>
+					  <td><font color="#2AD2C9">OS</font></td>
+					  <td>Windows 7 SP1 or newer</td>
+					  <td>Windows 7 SP1 or newer</td>
+					</tr>
+					<tr>
+					  <td><font color="#2AD2C9">INPUTS</font></td>
+					  <td>1x HDMI 1.4 or DIsplayPort 1.2;<br>1x USB 2.0</td>
+					  <td>3x USB 3.0;<br>1x HDMI 1.3 port</td>
+					</tr>
+					<tr>
+					  <td><font color="#2AD2C9">OTHER</font></td>
+					  <td>At least 1.5m x 2m of open space for<br>"room-scale" experiences</td>	
+					</tr>
+				  </tbody>
+				</table>
+		      </div>
+		      	<p style="line-height:200%">
+          			单单配置达标还不行，大家注意最后一栏，HTC Vive还有对于使用空间面积的需求，因为你需要把包装中的两个激光定位器安装到房间的两个对角上，这样才能实现你在虚拟现实空间中走动时的定位，HTC官方给出的要求是最少1.5*2米。不过，Trustedreviews的Evan Kypreos说，要想获得良好的空间感，至少也得3*3米的空间才行，这差不多要占据一间卧室的大半。
+          		</p>
+          		<center>
+          			<br><a><img src="/images/htc1.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          			<p style="line-height:200%">
+          				▲HTC Vive的全部主体组件
+          			</p>
+          			<a><img src="/images/oculus1.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          			<p style="line-height:200%">
+          				▲Oculus Rift的主体组件
+          			</p>
+          		</center>
+          		<p style="line-height:200%">
+          			接下来就是连接安装并进行初始设置了，结果肯定是显而易见的，不需要在墙上固定安装激光定位器的Oculus Rift必然简单，只需要把无限手柄接收器、头盔以及追踪相机的接口全部连接到PC上，不到10分钟即可安装好。
+          			<br>HTC Vive的安装就要复杂的多，但是那两个激光定位器的安装就比较繁琐，不但需要考虑高度还得给它们单独连接上电源，HTC也考虑到了这个问题，所以他们推出了上门安装服务，HTC收取550元人民币费用然后帮你装好设置好，简单粗暴。另外，在这个空间内走动时，你也需要保持头盔的电源连接，也就是必须要拖着一根线才行，小心不要被绊倒，而且需要空间的净空，HTC也在说明书上特别提醒你不要让宠物在这个范围内活动，防止意外踩到。
+          		</p>
+          		<center>
+          			<br><a><img src="/images/htcshangmen.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          		</center>
+          		<p style="line-height:200%">
+          			接下来就是设置过程，HTC Vive会给出一个相对漫长的初始教学，好让你搞明白它的具体用法，Oculus Rift的设置则要简单很多，毕竟与之适配的独立手柄还没上市，暂时用的还是微软的Xbox One手柄。
+          		</p>
+          		<center>
+          			<br><a><img src="/images/wear.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          		</center>
+          		<p style="line-height:200%">
+          			关于HTC Vive手柄的具体用法大概是这样的，这两个无线手柄都是无线的，充一次电大概能用个4-5小时，上面带有和Steam手柄一样的触控区域，可以用它来进行一些精细控制，还有一个滚轮方便你完成射击游戏中的武器切换等操作，握紧拳头就可以模拟游戏中的捏住、拿起操作，两个手柄也会以漂浮的方式显示在你看到的虚拟现实环境中（游戏中很多时候会变成你的双手），低头来看的话，地上还会有阴影。
+          		</p>
+          		<center>
+          			<h2 class="t-button"><a href="#profile-tab"><span class="label label-default"><font face="Microsoft YaHei">其他对比</font></span></a></h2>
+          		</center>
+						  </div>
+		<!--//first-->
+						  <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+							<p style="line-height:200%">
+          						先来说说Oculus Rift，这货的设计思路就是最大限度的轻量化和简单化，所以它在两侧直接集成了耳机，不需要你再单独佩戴带头梁的游戏耳机等（也支持第三方耳机），机器上的功能也很简单，只有一个旋钮用于调整瞳距，这使得它的重量只有470克，虽然也不算轻……Evan Kypreos说，这个重量感觉还好，戴了几个小时也没啥问题，比HTC Vive感觉要舒服些，毕竟重量轻了。
+          					</p>
+          					<center>
+          						<br><a><img src="/images/oculus2.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          						<br><a><img src="/images/oculus3.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          					</center>
+          					<p style="line-height:200%">
+          						<br>相比之下，HTC Vive就在头盔上放置了大量的功能，比如正前方会有一个独立摄像头，按下之后可以临时切换到眼前的实际景象，此外头盔上还有开关机按钮和瞳距调节旋转按钮，重量则达到了555克，这还是不带耳机的情况下，如果你再佩戴一个游戏耳机，那么重量就更大了，Will Shanklin在戴了几个小时后表示，“我感觉我的颈椎似乎出了问题”……
+          					</p>
+          					<center>
+          						<br><a><img src="/images/htc2.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          						<br><a><img src="/images/htc3.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          					</center>
+          					<p style="line-height:200%">
+          						<br>默认情况下，Oculus Rift的佩戴感受都要略微松弛一些，如果你强行拉的过紧的话，镜片上就会出现明显的起雾情况。而HTC Vive不管你收的再紧也一样不起雾，因为它在鼻子上方位置留了开孔，不过在特定光线条件下，可能会有少量的光线从这儿进入你的视野。
+          					</p>
+          					<center>
+          						<br><a><img src="/images/htc4.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          					</center>
+          					<p style="line-height:200%">
+          						<br>戴着眼镜用Oculus Rift和HTC Vive哪个会更舒服呢？Will Shanklin称，他认为HTC Vive在这方面要好的多。因为戴上Oculus Rift之后，它会有一点压眼镜鼻托的情况，两边的耳机也相当紧凑，这使得你戴眼镜的情况下使用Oculus Rift相当痛苦。而HTC Vive在这一点上就要好很多，眼罩默认就为眼镜留出了空间，镜片位置还支持前后可调（对视野会有影响），戴着眼镜使用也不成问题。
+          					</p>
+          					<center>
+          						<h2 class="t-button"><a href="#profile-tab2"><span class="label label-default"><font face="Microsoft YaHei">其他对比</font></span></a></h2>
+          					</center>
+
+						  </div>
+
+						  <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
+							<p style="line-height:200%">
+          						<br>Oculus Rift和HTC Vive使用的都是两块1080*1200分辨率OLED屏幕，刷新率也是相同的90Hz，这就比很多移动VR产品例如三星的Gear VR强上很多，两者的视野也是一样的110度。
+          					</p>
+          					<center>
+          						<br><a><img src="/images/both1.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          					</center>
+          					<p style="line-height:200%">
+          						<br>使用这类产品会让人感觉到一定的眩晕感，Evan Kypreos表示，他认为“HTC Vive在抑制眩晕感方面比Oculus Rift要好；两者画面的颗粒感都比较明显，但HTC的屏幕颗粒感有时候会更加突出一些；在观看文字内容时，Oculus Rift要比HTC Vive来的清晰一些，这并不是分辨率的差异，而是轻微移动情况下，HTC Vive的文字边缘容易发虚，而Oculus Rift则没有出现这种情况，因此文字的可读性要好一些。”
+          					</p>
+          					<center>
+          						<h2 class="t-button"><a href="#profile-tab3"><span class="label label-default"><font face="Microsoft YaHei">其他对比</font></span></a></h2>
+          					</center>
+						  </div>
+
+						  <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
+							<p style="line-height:200%">
+          						<br>Oculus Rift首发游戏作品总计有30款左右，购买时默认附赠两款品质一流的VR游戏，比如热门的游戏大作《EVE：瓦尔基里》，这是一款可以360度环绕观看的VR太空飞船射击游戏，画面相当的震撼，可以从下面的视频中感受一下，游戏过程中可以转动头部观看四周的情况。更多游戏将在年底到来，差不多会达到100款左右。
+          					</p>
+          					<center>
+          						<br><a><img src="/images/luckystory.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          						<p style="line-height:200%">
+          							▲《Lucky的故事》
+          						</p>
+          						<br><a><img src="/images/eve.jpg" style="max-width:100%;border-radius:8px;display:block"/></a>
+          						<p style="line-height:200%">
+          							▲《EVE：瓦尔基里》
+          						</p>     	
+          					</center>
+          					<p style="line-height:200%">
+          						<br>HTC Vive由于与Steam进行了合作，搭载SteamVR平台，因此游戏资源自然也不会缺乏，而且支持性非常良好，很多游戏进入后即可自动启用VR，首发阶段就有50款游戏作品将支持，随机同样捆绑两款游戏，而且由于有单独的控制手柄，你可以像下面这样进行游戏，比如抓住桌面上的任何东西进行互动，扔出去也行，这是Oculus Rift现阶段所无法提供的游戏体验，大家可以从下面的视频中实际感受一下。
+          						<br>除了游戏之外，两款VR设备配合一些应用，都可以实现使用Windows桌面环境，进行网页浏览或者直接关掉VR模式，直接在眼前显示一个硕大的屏幕来观看电影，不过如果你不习惯盲打，一旦遇到社交软件需要输入文本内容时就尴尬了…….
+          					</p>
+          					<center>
+          						<h2 class="t-button"><a href="#home-tab"><span class="label label-default"><font face="Microsoft YaHei">其他对比</font></span></a></h2>
+          					</center>
+						  </div>
+
+						</div>
+					   </div>
+				 </div>
+
+          		
+          	</div>
+          	
+          	<div class="page-header"></div>         
+		  </section>
+
+
+</div>
+</div>
+<!-- //typo-page -->
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="footer-grids">
+			<div class="logo2">
+				<a href="<?php echo U('index/index');?>"><span>VR</span>视界</a>
+			</div>
+			<div class="ftr-menu">
+				<ul>
+					<li><a href="<?php echo U('index/index');?>"><font face="微软雅黑">主页</font></a></li>
+					<li><a href="<?php echo U('index/about');?>"><font face="微软雅黑">VR简述</font></a></li>
+					<li><a href="<?php echo U('index/typography');?>"><font face="微软雅黑">产品评测</font></a></li>
+					<li><a href="<?php echo U('index/gallery');?>"><font face="微软雅黑">留言板</font></a></li>
+					<li><a href="<?php echo U('index/contact');?>"><font face="微软雅黑">联系我们</font></a></li>
+				</ul>s
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+	</div>
+</div>
+
+<!---->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- //footer -->
+<!-- for bootstrap working -->
+		<script src="/js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
